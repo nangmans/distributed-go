@@ -149,6 +149,11 @@ func setupTest(t *testing.T, fn func(*Config)) (client, _ api.LogClient, cfg *Co
 		rootConn.Close()
 		nobodyConn.Close()
 		l.Close()
+		if telemetryExporter != nil {
+			time.Sleep(1500 * time.Millisecond)
+			telemetryExporter.Stop()
+			telemetryExporter.Close()
+		}
 	}
 }
 
