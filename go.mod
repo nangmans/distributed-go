@@ -5,6 +5,8 @@ go 1.19
 require (
 	github.com/gorilla/mux v1.8.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
+	github.com/hashicorp/raft v1.3.6
+	github.com/hashicorp/raft-boltdb v0.0.0-20230125174641-2a8082862702
 	github.com/hashicorp/serf v0.9.7
 	github.com/stretchr/testify v1.8.3
 	github.com/tysonmote/gommap v0.0.2
@@ -16,8 +18,6 @@ require (
 
 require (
 	github.com/hashicorp/go-hclog v0.9.1 // indirect
-	github.com/hashicorp/raft v1.3.6 // indirect
-	github.com/hashicorp/raft-boltdb v0.0.0-20230125174641-2a8082862702 // indirect
 	go.etcd.io/bbolt v1.3.5 // indirect
 )
 
