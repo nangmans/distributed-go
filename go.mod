@@ -12,8 +12,8 @@ require (
 	github.com/stretchr/testify v1.8.3
 	github.com/tysonmote/gommap v0.0.2
 	go.uber.org/zap v1.24.0
-	google.golang.org/genproto v0.0.0-20230306155012-7f2fa6fef1f4
-	google.golang.org/grpc v1.55.0
+	google.golang.org/genproto v0.0.0-20221118155620-16455021b5e6
+	google.golang.org/grpc v1.52.0
 	google.golang.org/protobuf v1.30.0
 )
 
