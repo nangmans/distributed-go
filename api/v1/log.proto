@@ -25,7 +25,7 @@ message ConsumeRequest {
 }
 
 message ConsumeResponse {
-    Record record = 1;
+    Record record = 2;
 }
 
 message Record {
